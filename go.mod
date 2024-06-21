@@ -2,7 +2,10 @@ module github.com/adobromilskiy/go-ratelimiter
 
 go 1.22.3
 
-require github.com/redis/go-redis/v9 v9.5.3
+require (
+	github.com/go-redis/redismock/v9 v9.2.0
+	github.com/redis/go-redis/v9 v9.5.3
+)
 
 require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
