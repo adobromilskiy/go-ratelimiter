@@ -1,0 +1,21 @@
+issues:
+  exclude-dirs:
+    - vendor
+
+run:
+  tests: false
+
+linters:
+  enable:
+    - dupl
+    - errchkjson
+    - gocyclo
+    - govet
+    - ineffassign
+    - gosimple
+    - staticcheck
+    - revive
+    - typecheck
+    - unconvert
+    - unparam
+  disable-all: true
